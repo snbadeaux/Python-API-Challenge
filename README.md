@@ -14,9 +14,12 @@ Analysis of WeatherPy:
 -The linear regression models for Humidity, Cloudiness, and Wind Speed vs Latitude show no real correlation between them as seen by their relatively flat regression lines.
 
 
-VacationPy
+
+VacationPy:
 
 I was able to save the picture of the Geoviews map plots to the output_data file since it is usually not visible when looking at Github alone.
+
+
 
 
 Sources:

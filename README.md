@@ -1,6 +1,7 @@
 # Python-API-Challenge
 
-This Challenge was to take real-time data of random latitudes and longitudes, link them to the nearest city, and gather data to show if there is any correlation between Latitude and a few variables: Temperature, Humidity, Cloudiness, Wind Speed. Also to show any difference between the Northern Hemisphere vs the Southern Hemisphere
+This Challenge was to take real-time data of random latitudes and longitudes, link them to the nearest city, and gather data to show if there is any correlation between Latitude and a few variables: Temperature, Humidity, Cloudiness, Wind Speed. Also to show any difference between the Northern Hemisphere vs the Southern Hemisphere.
+I was then to take the cities.csv created and plot them on a graph using Geoviews. Then I was to narrow down my search criteria to cities with my ideal vacation weather. From those cities, I was to use Geoapify to find the nearest hotel. I then plotted only those cities that returned a hotel name, onto a geoviews graph.
 
 Analysis of WeatherPy:
 
@@ -11,3 +12,9 @@ Analysis of WeatherPy:
 -The linear regression models of Temperature vs Latitude show that for the Northern Hemisphere, there is a negative correlation and for the Southern Hemisphere there is a positive correlation. If you look closely, however, both show that the closer to the equator the city is, the higher the Max Temperature will be therefore they are both confirming the same thing.
 
 -The linear regression models for Humidity, Cloudiness, and Wind Speed vs Latitude show no real correlation between them as seen by their relatively flat regression lines.
+
+
+VacationPy:
+I was able to save the picture of the Geoviews map plots to the output_data file since it is usually not visible when looking at Github alone.
+
+
